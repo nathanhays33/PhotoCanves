@@ -1,0 +1,14 @@
+js\default.js
+js\navigator.js
+pages\home\home.js
+css\default.css
+default.html
+images\splash_ic_large.png
+images\splash_ic_med.png
+images\splash_ic_small.png
+images\splashscreen.png
+pages\colorList\colorList.css
+pages\colorList\colorList.html
+pages\colorList\colorList.js
+pages\home\home.css
+pages\home\home.html

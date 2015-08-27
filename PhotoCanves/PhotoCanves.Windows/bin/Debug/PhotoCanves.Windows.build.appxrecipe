@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>HAYS</Machine>
+    <WindowsUser>nathan</WindowsUser>
+    <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>25af2986-0830-495b-b723-14e2c6475d00</PackageIdentityName>
+    <IntermediateOutputPath>C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bld\Debug\</IntermediateOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\css\default.css">
+      <PackagePath>css\default.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\pages\colorList\colorList.css">
+      <PackagePath>pages\colorList\colorList.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\pages\home\home.css">
+      <PackagePath>pages\home\home.css</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\images\splashscreen.png">
+      <PackagePath>images\splashscreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\images\splash_ic_large.png">
+      <PackagePath>images\splash_ic_large.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\images\splash_ic_med.png">
+      <PackagePath>images\splash_ic_med.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\images\splash_ic_small.png">
+      <PackagePath>images\splash_ic_small.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\pages\colorList\colorList.html">
+      <PackagePath>pages\colorList\colorList.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\default.html">
+      <PackagePath>default.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\pages\home\home.html">
+      <PackagePath>pages\home\home.html</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\pages\colorList\colorList.js">
+      <PackagePath>pages\colorList\colorList.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Shared\js\navigator.js">
+      <PackagePath>js\navigator.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Shared\js\default.js">
+      <PackagePath>js\default.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Shared\pages\home\home.js">
+      <PackagePath>pages\home\home.js</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bin\Debug\ReverseMap\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\">
+      <Name>Microsoft.WinJS.2.0</Name>
+      <Version>1.0.9600.16408</Version>
+      <Architecture>Neutral</Architecture>
+      <FrameworkIdentity>Name=Microsoft.WinJS.2.0, MinVersion=1.0.9600.16408</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows\v8.1\ExtensionSDKs\Microsoft.WinJS.2.0\1.0\Microsoft.WinJS.2.0.appx</AppxLocation>
+      <MoreInfo>http://go.microsoft.com/fwlink/%3fLinkId=260891</MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

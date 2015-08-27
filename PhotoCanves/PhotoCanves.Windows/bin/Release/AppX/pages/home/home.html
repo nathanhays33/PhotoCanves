@@ -1,0 +1,93 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Create Color Palette</title>
+	<link href="//Microsoft.WinJS.2.0/css/ui-light.css" rel="stylesheet" />
+    <script src="//Microsoft.WinJS.2.0/js/base.js"></script>
+    <script src="//Microsoft.WinJS.2.0/js/ui.js"></script>
+
+    <link href="/pages/home/home.css" rel="stylesheet" />
+
+    <script src="/pages/home/home.js"></script>
+</head>
+<body>
+    <!--
+    <div id="myAd" style="position: absolute; top: 0px; width: 728px; height: 90px; z-index: 1; right: 0px;"
+         data-win-control="MicrosoftNSJS.Advertising.AdControl"
+         data-win-options="{applicationId: 'c2124038-d832-48da-8fd2-1eb41b359be1', adUnitId: '182522'}">
+    </div>
+        -->
+
+    <div id="appBar" data-win-control="WinJS.UI.AppBar" data-win-options="">
+        <button data-win-control="WinJS.UI.AppBarCommand"
+                data-win-options="{id:'getPhotoButton',label:'Get Photo',icon:'add',
+                section:'global',tooltip:'Load a Photo'}"></button>
+
+        <button data-win-control="WinJS.UI.AppBarCommand"
+                data-win-options="{id:'zoomOutButton',label:'Reset Photo',icon:'undo',
+                section:'global',tooltip:'Reset Photo'}"></button>
+
+        <button data-win-control="WinJS.UI.AppBarCommand"
+                data-win-options="{id:'grayScaleButton',label:'Grayscale',icon:'document',
+                section:'global',tooltip:'Turn Photo to grayscale'}"></button>
+    </div>
+
+    <div id="NavBar" data-win-control="WinJS.UI.NavBar">
+        <div id="GlobalNav" data-win-control="WinJS.UI.NavBarContainer">
+            <div data-win-control="WinJS.UI.NavBarCommand" data-win-options="{
+                        label: 'Full Palette',
+                        icon: WinJS.UI.AppBarIcon.gotostart,
+                        location: '/pages/colorList/colorList.html',
+                        splitButton: false
+                        }">
+            </div>
+         </div>
+    </div>
+
+            <!-- The content that will be loaded and displayed. -->
+            <div class="fragment homepage">
+                <header class="page-header" aria-label="Header content" role="banner">
+                    <button class="back-button" data-win-control="WinJS.UI.BackButton"></button>
+                    <h1 class="titlearea win-type-ellipsis">
+                        <span class="pagetitle">Creat a Color Palette</span>
+                    </h1>
+                </header>
+                <section aria-label="Main content" role="main">
+                    <!--
+                    <div>
+                        <section class="magic-winjs-scroll-container-class">
+                                <div id="basicListView"
+                                     data-win-control="WinJS.UI.ListView"
+                                     data-win-options="{
+                               itemTemplate:select('.itemtemplate') }">
+                                </div>
+                        </section>
+
+                        <div id="itemtemplate" data-win-control="WinJS.Binding.Template">
+                            <div>
+                                <div id="image">
+                                    <img id="displayImage" src="#" data-win-bind="src: src" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                    <canvas width="800" height="600" id="canvas">Canvas is not supported</canvas>
+					
+                    <canvas id="colorSample" width="200" height="300">Canvas is not supported</canvas>
+
+
+                    <div class="itemTemplate" data-win-control="WinJS.Binding.Template" data-win-bind="style.background: color">
+                        <div data-win-bind="innerText:value ; style.background: color" style="width:190px ; height:100px;
+    border-radius: 15px; text-align:center"></div>
+                    </div>
+                    <div id="list" data-win-control="WinJS.UI.ListView" data-win-options="{
+                itemTemplate:select('.itemTemplate'),
+                itemDataSource:codeShow.Demos.listview.live.data.dataSource
+                }"></div>
+
+                </section>
+            </div>
+</body>
+</html>

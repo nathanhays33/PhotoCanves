@@ -1,0 +1,15 @@
+c:\users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bin\Debug\ReverseMap\resources.pri
+c:\users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bin\Debug\AppxManifest.xml
+c:\users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bin\Debug\PhotoCanves.Windows.build.appxrecipe
+c:\users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bld\Debug\priconfig.xml
+c:\users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bld\Debug\priconfig.xml.intermediate
+c:\users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bld\Debug\layout.resfiles
+c:\users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bld\Debug\layout.resfiles.intermediate
+c:\users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bld\Debug\resources.resfiles
+c:\users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bld\Debug\resources.resfiles.intermediate
+c:\users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bld\Debug\pri.resfiles
+c:\users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bld\Debug\pri.resfiles.intermediate
+c:\users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bld\Debug\qualifiers.txt
+c:\users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bld\Debug\qualifiers.txt.intermediate
+c:\users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bld\Debug\MultipleQualifiersPerDimensionFound.txt
+c:\users\nathan\documents\visual studio 2013\Projects\PhotoCanves\PhotoCanves\PhotoCanves.Windows\bld\Debug\ProjectArchitectures.txt
